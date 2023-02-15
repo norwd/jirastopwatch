@@ -194,6 +194,32 @@
     <None Include="Resources\posttimenote26.bmp" />
     <Content Include="icons\posttimenote26.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\..\packages\Roslynator.Analyzers.4.2.0\analyzers\dotnet\cs\Roslynator.CSharp.Analyzers.CodeFixes.dll" />
+    <Analyzer Include="..\..\packages\Roslynator.Analyzers.4.2.0\analyzers\dotnet\cs\Roslynator.CSharp.Analyzers.dll" />
+    <Analyzer Include="..\..\packages\Roslynator.Analyzers.4.2.0\analyzers\dotnet\cs\Roslynator_Analyzers_Roslynator.Common.dll" />
+    <Analyzer Include="..\..\packages\Roslynator.Analyzers.4.2.0\analyzers\dotnet\cs\Roslynator_Analyzers_Roslynator.Core.dll" />
+    <Analyzer Include="..\..\packages\Roslynator.Analyzers.4.2.0\analyzers\dotnet\cs\Roslynator_Analyzers_Roslynator.CSharp.dll" />
+    <Analyzer Include="..\..\packages\Roslynator.Analyzers.4.2.0\analyzers\dotnet\cs\Roslynator_Analyzers_Roslynator.CSharp.Workspaces.dll" />
+    <Analyzer Include="..\..\packages\Roslynator.Analyzers.4.2.0\analyzers\dotnet\cs\Roslynator_Analyzers_Roslynator.Workspaces.Common.dll" />
+    <Analyzer Include="..\..\packages\Roslynator.Analyzers.4.2.0\analyzers\dotnet\cs\Roslynator_Analyzers_Roslynator.Workspaces.Core.dll" />
+    <Analyzer Include="..\..\packages\Roslynator.CodeAnalysis.Analyzers.4.2.0\analyzers\dotnet\cs\Roslynator.CodeAnalysis.Analyzers.CodeFixes.dll" />
+    <Analyzer Include="..\..\packages\Roslynator.CodeAnalysis.Analyzers.4.2.0\analyzers\dotnet\cs\Roslynator.CodeAnalysis.Analyzers.dll" />
+    <Analyzer Include="..\..\packages\Roslynator.CodeAnalysis.Analyzers.4.2.0\analyzers\dotnet\cs\Roslynator_CodeAnalysis_Analyzers_Roslynator.Common.dll" />
+    <Analyzer Include="..\..\packages\Roslynator.CodeAnalysis.Analyzers.4.2.0\analyzers\dotnet\cs\Roslynator_CodeAnalysis_Analyzers_Roslynator.Core.dll" />
+    <Analyzer Include="..\..\packages\Roslynator.CodeAnalysis.Analyzers.4.2.0\analyzers\dotnet\cs\Roslynator_CodeAnalysis_Analyzers_Roslynator.CSharp.dll" />
+    <Analyzer Include="..\..\packages\Roslynator.CodeAnalysis.Analyzers.4.2.0\analyzers\dotnet\cs\Roslynator_CodeAnalysis_Analyzers_Roslynator.CSharp.Workspaces.dll" />
+    <Analyzer Include="..\..\packages\Roslynator.CodeAnalysis.Analyzers.4.2.0\analyzers\dotnet\cs\Roslynator_CodeAnalysis_Analyzers_Roslynator.Workspaces.Common.dll" />
+    <Analyzer Include="..\..\packages\Roslynator.CodeAnalysis.Analyzers.4.2.0\analyzers\dotnet\cs\Roslynator_CodeAnalysis_Analyzers_Roslynator.Workspaces.Core.dll" />
+    <Analyzer Include="..\..\packages\Roslynator.Formatting.Analyzers.4.2.0\analyzers\dotnet\cs\Roslynator.Formatting.Analyzers.CodeFixes.dll" />
+    <Analyzer Include="..\..\packages\Roslynator.Formatting.Analyzers.4.2.0\analyzers\dotnet\cs\Roslynator.Formatting.Analyzers.dll" />
+    <Analyzer Include="..\..\packages\Roslynator.Formatting.Analyzers.4.2.0\analyzers\dotnet\cs\Roslynator_Formatting_Analyzers_Roslynator.Common.dll" />
+    <Analyzer Include="..\..\packages\Roslynator.Formatting.Analyzers.4.2.0\analyzers\dotnet\cs\Roslynator_Formatting_Analyzers_Roslynator.Core.dll" />
+    <Analyzer Include="..\..\packages\Roslynator.Formatting.Analyzers.4.2.0\analyzers\dotnet\cs\Roslynator_Formatting_Analyzers_Roslynator.CSharp.dll" />
+    <Analyzer Include="..\..\packages\Roslynator.Formatting.Analyzers.4.2.0\analyzers\dotnet\cs\Roslynator_Formatting_Analyzers_Roslynator.CSharp.Workspaces.dll" />
+    <Analyzer Include="..\..\packages\Roslynator.Formatting.Analyzers.4.2.0\analyzers\dotnet\cs\Roslynator_Formatting_Analyzers_Roslynator.Workspaces.Common.dll" />
+    <Analyzer Include="..\..\packages\Roslynator.Formatting.Analyzers.4.2.0\analyzers\dotnet\cs\Roslynator_Formatting_Analyzers_Roslynator.Workspaces.Core.dll" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\..\packages\System.Resources.Extensions.5.0.0\build\net461\System.Resources.Extensions.targets" Condition="Exists('..\..\packages\System.Resources.Extensions.5.0.0\build\net461\System.Resources.Extensions.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
