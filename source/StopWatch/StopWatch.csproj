@@ -195,6 +195,10 @@
     <Content Include="icons\posttimenote26.png" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Roslynator.CommandLine" Version="0.5.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
     <Analyzer Include="..\..\packages\Roslynator.Analyzers.4.2.0\analyzers\dotnet\cs\Roslynator.CSharp.Analyzers.CodeFixes.dll" />
     <Analyzer Include="..\..\packages\Roslynator.Analyzers.4.2.0\analyzers\dotnet\cs\Roslynator.CSharp.Analyzers.dll" />
     <Analyzer Include="..\..\packages\Roslynator.Analyzers.4.2.0\analyzers\dotnet\cs\Roslynator_Analyzers_Roslynator.Common.dll" />
